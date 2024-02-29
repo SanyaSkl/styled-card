@@ -17,6 +17,7 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`
   font-weight: 700;
   line-height: 20px;
   margin-right: 10px;
+  cursor: pointer;
 
   ${props => props.primary && css<StyledBtnPropsType>`
     border: none;
@@ -25,7 +26,6 @@ export const StyledBtn = styled.button<StyledBtnPropsType>`
 
     &:hover {
       background-color: #0000ffff;
-      cursor: pointer;
     }
   `}
 
